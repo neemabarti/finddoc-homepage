@@ -1,18 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Findoc Homepage Clone</title>
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <header class="navbar">
-    <div class="container">
-      <h2 class="logo">findoc</h2>
+  <header class="headersec">
+    <div class="container nav-flex">
+
+      <div class="logo">findoc</div>
+
+      <nav class="nav-links">
+        <a href="#">Stocks</a>
+        <a href="#">Mutual Funds</a>
+        <a href="#">FPI</a>
+        <a href="#">About</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="btn small">Get Started</a>
+      </div>
+
     </div>
   </header>
+
+  <main class="homePageWrap">
+    <section class="bannerWrap">
+      <div class="container bannerSec">
+
+        <div class="bannerText">
+          <h1>
+            All Your Investment Needs <br />
+            In One Place
+          </h1>
+
+          <p>
+            Stocks, commodities, derivatives, futures, options, mutual funds and
+            sovereign gold bonds.
+          </p>
+
+          <div class="bannerIcons">
+            <div class="iconBox">
+              <span></span>
+              <p>Algo Trading</p>
+            </div>
+
+            <div class="iconBox">
+              <span></span>
+              <p>Foreign Portfolio Investment</p>
+            </div>
+          </div>
+        </div>
+
+      
+        <div class="bannerForm">
+          <h3>Search for stocks or mutual funds...</h3>
+
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Mobile No" />
+
+          
+          <button class="btn full">Get Started</button>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <section class="infoSection">
+      <div class="container">
+        <h2>Innovative Solutions For Your Financial Journey</h2>
+        <p>
+          Findoc helps users invest smarter with tools designed for clarity,
+          simplicity, and confidence.
+        </p>
+      </div>
+    </section>
+
+  </main>
 
 </body>
 </html>
